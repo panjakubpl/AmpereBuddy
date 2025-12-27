@@ -14,7 +14,7 @@ AmpereBuddy is a lightweight, privacy-focused menu bar application that provides
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/menubar.png" alt="AmpereBuddy Menu Bar" width="300">
+  <img src="screenshots/menu.png" alt="AmpereBuddy Menu Bar" width="300">
 </p>
 
 <p align="center">
