@@ -93,15 +93,11 @@ AmpereBuddy is a lightweight, privacy-focused menu bar application that provides
 
 ### Download
 
-#### Option 1: GitHub Releases (Recommended)
 1. Go to [Releases](../../releases/latest)
 2. Download `AmpereBuddy-X.X.X.dmg` from the latest release
 3. Open the DMG file
 4. Drag AmpereBuddy to your Applications folder
 5. Launch AmpereBuddy from Applications
-
-#### Option 2: Direct Download
-Download the latest `.dmg` from [macfoundry.it/amperebuddy](https://macfoundry.it/amperebuddy)
 
 ### First Launch
 On first launch, macOS may show a security prompt. Go to **System Settings > Privacy & Security** and click "Open Anyway" to allow the app.
@@ -146,7 +142,7 @@ For full details, see [PRIVACY.md](PRIVACY.md).
 
 ### Network Access
 The app only connects to the internet for **optional** update checks:
-- Endpoint: GitHub Releases API (falls back to `macfoundry.it` if needed)
+- Endpoint: GitHub Releases API
 - Secured with certificate pinning and Ed25519 signatures
 - No user data is transmitted
 - Can be disabled in Settings > System
@@ -266,7 +262,7 @@ Zero third-party dependencies. Uses only Apple's native frameworks:
 
 ## Support
 
-- **Website**: [macfoundry.it/amperebuddy](https://macfoundry.it/amperebuddy)
+- **GitHub**: [github.com/panjakubpl/AmpereBuddy](https://github.com/panjakubpl/AmpereBuddy)
 - **Support the project**: [buymeacoffee.com/panjakub](https://buymeacoffee.com/panjakub)
 
 ---
