@@ -1,11 +1,11 @@
 # AmpereBuddy
 
-**Complete battery monitoring for your Mac**
+**Complete battery monitoring for your MacBook**
 
-AmpereBuddy is a lightweight, privacy-focused menu bar application that provides comprehensive battery health monitoring, historical tracking, and customizable alerts for Apple Silicon Macs.
+AmpereBuddy is a lightweight, privacy-focused menu bar application that provides comprehensive battery health monitoring, historical tracking, and customizable alerts for Apple Silicon MacBooks.
 
 ![macOS 26.0+](https://img.shields.io/badge/macOS-26.0+-007AFF?logo=apple&logoColor=white)
-![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-Native-34C759?logo=apple&logoColor=white)
+![MacBook Only](https://img.shields.io/badge/MacBook-Apple%20Silicon-34C759?logo=apple&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Privacy](https://img.shields.io/badge/Privacy-No%20Tracking-8E8E93)
 
@@ -89,7 +89,7 @@ AmpereBuddy is a lightweight, privacy-focused menu bar application that provides
 
 ### Requirements
 - macOS 26.0 (Tahoe) or later
-- Apple Silicon Mac (M1, M2, M3, M4 series)
+- MacBook with Apple Silicon (M1, M2, M3, M4 series)
 
 ### Download
 
@@ -168,7 +168,7 @@ For security policy and vulnerability reporting, see [SECURITY.md](SECURITY.md).
 Yes, AmpereBuddy is completely free. You can optionally support development via [Buy Me a Coffee](https://buymeacoffee.com/panjakub).
 
 ### Does AmpereBuddy work on Intel Macs?
-No, AmpereBuddy is designed exclusively for Apple Silicon Macs (M1, M2, M3, M4 series).
+No, AmpereBuddy is designed exclusively for MacBooks with Apple Silicon (M1, M2, M3, M4 series).
 
 ### Does AmpereBuddy work on desktop Macs?
 Desktop Macs (Mac mini, Mac Studio, Mac Pro, iMac) don't have batteries. AmpereBuddy will show a friendly "No Battery Detected" message on these devices.
@@ -219,8 +219,8 @@ Or manually delete:
 
 ## Technical Details
 
-### Supported Macs
-All Apple Silicon Macs with batteries:
+### Supported MacBooks
+All Apple Silicon MacBooks:
 - MacBook Air (M1, M2, M3, M4)
 - MacBook Pro 13" (M1, M2)
 - MacBook Pro 14" (M1 Pro/Max, M2 Pro/Max, M3, M3 Pro/Max, M4, M4 Pro/Max)
