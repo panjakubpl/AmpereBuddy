@@ -1,0 +1,66 @@
+# AmpereBuddy - Distribution Repository
+# This repo contains ONLY user-facing files (README, screenshots, releases)
+# NO source code is published here!
+
+# Source code (NEVER commit)
+AmpereBuddy/
+AmpereBuddyTests/
+*.xcodeproj/
+*.xcworkspace/
+
+# Build tools and scripts (keep local)
+build-dmg.sh
+release.sh
+release-to-github.sh
+cleanup-for-release.sh
+*.sh
+
+# Signing keys (CRITICAL - NEVER commit)
+signing-keys/
+*.pem
+*.key
+
+# Build outputs
+dist/
+releases/
+*.dmg
+
+# DMG resources
+dmg-resources/
+
+# Development documentation (internal only)
+docs/
+PROJECT_STRUCTURE.txt
+version.json.example
+*.example
+
+# Xcode
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserstate
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Auto-Claude & Serena
+.auto-claude/
+.serena/
+
+# Temporary files
+*.swp
+*.swo
+*~
