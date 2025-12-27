@@ -64,12 +64,12 @@ AmpereBuddy stores the following data **only on your Mac**:
 
 ### Update Checks (Optional)
 
-AmpereBuddy can check for updates from our server:
+AmpereBuddy can check for updates from GitHub:
 
-- **Endpoint**: `macfoundry.it/amperebuddy/downloads/version.json`
-- **Method**: HTTPS GET request
+- **Endpoint**: `github.com/panjakubpl/AmpereBuddy/releases/latest/download/version.json`
+- **Method**: HTTPS GET request via GitHub Releases API
 - **Data sent**: None (no user information transmitted)
-- **Data received**: Version number, release notes, download URL
+- **Data received**: Version number, release notes, download URL, SHA-256 hash
 - **Security**: Certificate pinning + Ed25519 signature verification
 - **Frequency**: Every 6 hours (when enabled)
 - **Control**: Can be disabled in Settings > System
@@ -104,7 +104,7 @@ AmpereBuddy uses **no third-party services**:
 - No social media integration
 - No cloud storage providers
 
-The only external dependency is the optional update check to `macfoundry.it`.
+The only external connection is the optional update check to GitHub Releases (public API).
 
 ---
 
@@ -139,7 +139,7 @@ We may update this privacy policy occasionally. Changes will be noted with an up
 
 ## Contact
 
-For privacy-related questions, visit [macfoundry.it/amperebuddy](https://macfoundry.it/amperebuddy).
+For privacy-related questions, visit [github.com/panjakubpl/AmpereBuddy](https://github.com/panjakubpl/AmpereBuddy).
 
 ---
 

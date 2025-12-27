@@ -11,7 +11,7 @@
 If you discover a security vulnerability in AmpereBuddy, please report it responsibly:
 
 1. **Do NOT** create a public GitHub issue for security vulnerabilities
-2. Send details to: **security@macfoundry.it**
+2. Use GitHub Security Advisories: [Report a vulnerability](https://github.com/panjakubpl/AmpereBuddy/security/advisories/new)
 3. Include:
    - Description of the vulnerability
    - Steps to reproduce
@@ -89,8 +89,8 @@ No access to:
 ## Best Practices for Users
 
 1. **Download from official sources only**
-   - macfoundry.it/amperebuddy
-   - Verify the SHA-256 hash if provided
+   - GitHub Releases: [github.com/panjakubpl/AmpereBuddy/releases](https://github.com/panjakubpl/AmpereBuddy/releases)
+   - Always verify the SHA-256 hash (provided in version.json)
 
 2. **Keep the app updated**
    - Enable automatic update checks in Settings

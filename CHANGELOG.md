@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 - Ed25519 cryptographic signature verification for all updates
-- TLS certificate pinning for macfoundry.it
+- TLS certificate pinning for GitHub and update servers
 - SHA-256 hash verification for downloaded files
 - No telemetry or analytics - complete privacy
 
