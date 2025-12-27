@@ -78,7 +78,7 @@ AmpereBuddy is a lightweight, privacy-focused menu bar application that provides
 - Event log with filtering
 
 ### Customization
-- 4 built-in themes + custom color picker
+- 3 built-in themes + custom color picker
 - 3 status bar display modes
 - Launch at login option
 - Configurable notifications and sounds
