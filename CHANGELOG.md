@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.1] - 2025-12-29
+
+### Fixed
+- Auto-hiding scrollbar indicators in all scrollable views for cleaner UI
+- Scrollbars now appear during scrolling and fade away when idle
+
+### Technical
+- Added `.scrollIndicators(.automatic)` modifier to all ScrollView instances
+- Improved visual consistency across Main Window and Settings panels
+
+---
+
+## [1.1.0] - 2025-12-27
+
+### Added
+- GitHub Releases distribution system
+- Secure auto-update mechanism with Ed25519 signatures
+- Certificate pinning for update server connections
+- Desktop Mac detection with friendly "No Battery" message
+
+### Security
+- Ed25519 cryptographic signature verification for all updates
+- TLS certificate pinning for GitHub and update servers
+- SHA-256 hash verification for downloaded files
+- No telemetry or analytics - complete privacy
+
+---
+
 ## [1.0.0] - 2025-12-22
 
 ### Added
