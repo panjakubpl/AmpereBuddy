@@ -7,12 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [1.1.3] - 2025-12-29
+## [1.1.4] - 2025-12-29
 
 ### Added
 - Manual "Check for Updates Now" button in Settings → System
-- Last check timestamp display
+- Last check timestamp display (compact layout)
 - Visual feedback during update check (spinning icon)
+- Alert notification with check results
+
+### Fixed
+- Update check now works reliably (removed certificate pinning)
+- Compact UI layout (check button and timestamp on same line)
+
+---
+
+## [1.1.3] - 2025-12-29
+
+### Internal
+- Skipped version (certificate pinning issues)
 
 ---
 
