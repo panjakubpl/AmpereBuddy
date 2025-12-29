@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.3] - 2025-12-29
+
+### Added
+- Manual "Check for Updates Now" button in Settings → System
+- Last check timestamp display
+- Visual feedback during update check (spinning icon)
+
+---
+
 ## [1.1.2] - 2025-12-29
 
 ### Fixed
