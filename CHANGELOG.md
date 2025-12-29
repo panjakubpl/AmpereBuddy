@@ -13,10 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Auto-hiding scrollbar indicators in all scrollable views for cleaner UI
 - Scrollbars now appear during scrolling and fade away when idle
 
-### Technical
-- Added `.scrollIndicators(.automatic)` modifier to all ScrollView instances
-- Improved visual consistency across Main Window and Settings panels
-
 ---
 
 ## [1.1.0] - 2025-12-27
